@@ -1,0 +1,5 @@
+exchange,exchange_id,symbol,timeframe,trades,ohlcv,first_available,last_available
+Mercado Bitcoin,mercado,USDC/BRL,1d,True,True,2020-05-26,2026-09-09
+Mercado Bitcoin,mercado,USDT/BRL,1d,True,True,2023-03-11,2026-09-09
+Foxbit,foxbit,USDC/BRL,1d,True,True,2021-03-19,2026-09-09
+Foxbit,foxbit,USDT/BRL,1d,True,True,2021-03-19,2026-09-09

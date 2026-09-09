@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Downloaded raw data
+data/bronze/*.xls
+data/bronze/*.xlsx
