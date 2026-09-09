@@ -1,4 +1,5 @@
-![alt text](StableContextBrazil.png)
+<img width="2172" height="724" alt="stablecontexbr" src="https://github.com/user-attachments/assets/1b86545e-5760-427d-a3a5-129d86250e47" />
+
 
 > Exploring how Brazil interacts with DeFi through stablecoin activity and economic context.
 
