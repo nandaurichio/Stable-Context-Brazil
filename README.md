@@ -18,10 +18,24 @@ Brazil's evolving relationship with decentralized finance.
 
 ---
 
-## Research Question
+## Research Questions
+
+### Central Question
 
 > **How can observable stablecoin activity on Ethereum help us understand
 > the evolving relationship between Brazil and decentralized finance?**
+
+### Investigation Questions
+
+- How does USDT and USDC activity evolve over time?
+- How does on-chain lending activity change for these assets?
+- How do different data sources compare?
+- Which economic and regulatory events provide relevant context?
+
+The questions are exploratory. No outcome is assumed in advance.
+
+Observed relationships are treated as signals for further investigation,
+not as proof of causality.
 
 ---
 
