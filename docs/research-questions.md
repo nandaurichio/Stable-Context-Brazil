@@ -2,9 +2,16 @@
 
 ## Central Question
 
-How has stablecoin activity evolved through a Brazilian lens?
+How can observable stablecoin activity on Ethereum help us understand the evolving relationship between Brazil and decentralized finance?
 
 ## Investigation Questions
+
+### Cross-source evolution
+
+- How has stablecoin activity evolved through a Brazilian lens?
+- Which signals appear across different data sources?
+- Which signals are consistent across independent sources?
+- Where do the sources diverge?
 
 ### Receita Federal
 
@@ -18,7 +25,7 @@ How has stablecoin activity evolved through a Brazilian lens?
 - When is historical data available for USDT/BRL and USDC/BRL?
 - How does trading activity in these pairs evolve over time?
 - Are there relevant differences between Mercado Bitcoin and Foxbit?
-- Do exchange patterns align with the activity reported to Receita Federal?
+- Do exchange patterns align temporally with the activity reported to Receita Federal?
 
 ### On-chain / The Graph
 
@@ -40,10 +47,8 @@ These questions are exploratory.
 
 The project does not assume the answers in advance.
 
-Observed relationships are treated as signals for further investigation,
-not as proof of causality.
+Observed relationships are treated as signals for further investigation, not as proof of causality.
 
 On-chain data is not used to identify Brazilian individuals or wallets.
 
-The research distinguishes between observed data, derived metrics,
-contextual information and interpretation.
+The research distinguishes between observed data, derived metrics, contextual information and interpretation.
