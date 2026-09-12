@@ -60,6 +60,7 @@ Exploratory analysis used to identify observations, signals, divergences and are
 ## Research Workflow
 
 The project separates data processing from interpretation:
+```text
 
 Observed Data
     ↓
@@ -72,6 +73,7 @@ Investigation
 Context
     ↓
 Interpretation
+```
 
 The pipeline does not encode a predefined narrative.
 
