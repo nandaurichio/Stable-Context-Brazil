@@ -242,3 +242,6 @@ data/bronze/*.xlsx
 # Downloaded raw data
 data/bronze/*.xls
 data/bronze/*.xlsx
+
+# Local research notes and ad-hoc analysis
+docs/working/

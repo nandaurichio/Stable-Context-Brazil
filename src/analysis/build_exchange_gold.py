@@ -29,6 +29,7 @@ def build_gold(df):
 
     gold["date"] = gold["timestamp"].dt.date
     gold["asset"] = gold["symbol"].map(STABLECOIN_PAIRS)
+    gold["volume_brl"] = gold["volume"] * gold["close"]
 
     return gold[
         [
@@ -41,9 +42,9 @@ def build_gold(df):
             "low",
             "close",
             "volume",
+            "volume_brl",
         ]
     ]
-
 
 def save_data(df):
     GOLD_PATH.parent.mkdir(parents=True, exist_ok=True)
