@@ -1,5 +1,22 @@
 <img width="2172" height="724" alt="stablecontexbr" src="https://github.com/user-attachments/assets/1b86545e-5760-427d-a3a5-129d86250e47" />
 
+---
+
+## 🏆 MVP Submission — Proof of the Central Question
+
+> **How can observable stablecoin activity on Ethereum help us understand
+> the evolving relationship between Brazil and decentralized finance?**
+
+**Answer:** Yes — observable stablecoin activity produces measurable,
+cross-validated signals: Brazilian-facing activity grew and broke out in
+2026-07; global on-chain lending diverged from Brazilian measures; and
+three independent sources converged on a USDC shift in 2026.
+
+- 📄 Full proof with evidence trail → **`docs/mvp.md`**
+- 📊 Evidence figures → **`docs/figures/`**
+- 🔬 Findings (01–06) → **`docs/analysis-findings/`**
+- 🧪 16 data-integrity tests → `python3 -m unittest discover -s tests`
+- 📓 Reproducible notebook → `notebooks/01-exploratory-analysis.ipynb`
 
 > Exploring how Brazil interacts with DeFi through stablecoin activity and economic context.
 
