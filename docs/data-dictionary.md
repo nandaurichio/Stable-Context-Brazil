@@ -2,7 +2,7 @@
 
 This document describes the main fields used in the standardized datasets of Stable-Context: Brazil.
 
-The data dictionary focuses on fields used across the Bronze, Silver and future Gold layers.
+The data dictionary focuses on fields used across the Bronze, Silver and Gold layers.
 
 ## General Fields
 

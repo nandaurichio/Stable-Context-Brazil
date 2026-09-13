@@ -12,7 +12,7 @@ cross-validated signals: Brazilian-facing activity grew and broke out in
 2026-07; global on-chain lending diverged from Brazilian measures; and
 three independent sources converged on a USDC shift in 2026.
 
-- 📄 Full proof with evidence trail → **`docs/mvp.md`**
+- 📄 Full proof with evidence trail → **local only** (`docs/mvp.md`, gitignored)
 - 📊 Evidence figures → **`docs/figures/`**
 - 🔬 Findings (01–06) → **`docs/analysis-findings/`**
 - 🧪 16 data-integrity tests → `python3 -m unittest discover -s tests`
@@ -27,7 +27,7 @@ observable signals of DeFi adoption in Brazil through stablecoin activity
 on Ethereum.
 
 The study uses **USDT and USDC** as an initial observational lens,
-examining activity from **2024 onward** alongside selected Brazilian
+examining activity from **2023 onward** alongside selected Brazilian
 economic and regulatory context.
 
 The goal is to identify observable patterns and generate hypotheses about
@@ -86,7 +86,7 @@ The first version focuses on:
 
 - **Ethereum**
 - **USDT and USDC**
-- **2024 onward**
+- **2023 onward**
 - Selected Brazilian economic indicators
 - Selected economic and regulatory events
 - Exploratory temporal analysis
@@ -114,12 +114,13 @@ Brazilian Context
 Exploratory Analysis
    ↓
 Observations & Hypotheses
-he project distinguishes between observed data, derived metrics,
+```
+
+The project distinguishes between observed data, derived metrics,
 contextual information and interpretation.
 
 Observed relationships are treated as signals for further investigation,
 not as proof of causality.
-```
 
 ## Data Architecture
 
@@ -136,7 +137,6 @@ Gold — analytical datasets
 -Python
 -SQL
 -The Graph
--Web3.py
 -CCXT
 -Banco Central do Brasil APIs
 ```

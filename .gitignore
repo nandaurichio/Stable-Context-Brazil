@@ -245,3 +245,8 @@ data/bronze/*.xlsx
 
 # Local research notes and ad-hoc analysis
 docs/working/
+
+# Local submission proof document
+# docs/mvp.md is kept locally for the submission and is not part of the
+# public repository. The evidence figures (docs/figures/) remain public.
+docs/mvp.md
