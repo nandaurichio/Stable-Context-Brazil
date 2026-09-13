@@ -250,3 +250,6 @@ docs/working/
 # docs/mvp.md is kept locally for the submission and is not part of the
 # public repository. The evidence figures (docs/figures/) remain public.
 docs/mvp.md
+
+# Local submission materials (project page text, video guide)
+docs/submission/
