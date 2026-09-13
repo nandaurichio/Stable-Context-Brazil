@@ -39542,27 +39542,7 @@
         "dailyActiveUsers": 15
       },
       {
-        "timestamp": "1789105235",
-        "market": {
-          "id": "0xe7df13b8e3d6740fe17cbe928c7334243d86c92f",
-          "name": "Spark USDT",
-          "inputToken": {
-            "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
-            "symbol": "USDT",
-            "decimals": 6
-          }
-        },
-        "inputTokenBalance": "327530145462723",
-        "inputTokenPriceUSD": "1",
-        "totalValueLockedUSD": "327530145.462723",
-        "dailyDepositUSD": "2000",
-        "dailyBorrowUSD": "365",
-        "dailyWithdrawUSD": "84831.151004",
-        "dailyRepayUSD": "80000",
-        "dailyActiveUsers": 5
-      },
-      {
-        "timestamp": "1789105307",
+        "timestamp": "1789165307",
         "market": {
           "id": "0x377c3bd93f2a2984e1e7be6a5c22c525ed4a4815",
           "name": "Spark USDC",
@@ -39572,14 +39552,94 @@
             "decimals": 6
           }
         },
-        "inputTokenBalance": "26211068724089",
+        "inputTokenBalance": "26220251432927",
         "inputTokenPriceUSD": "1",
-        "totalValueLockedUSD": "26211068.724089",
-        "dailyDepositUSD": "0.01",
-        "dailyBorrowUSD": "0",
-        "dailyWithdrawUSD": "36.289242",
+        "totalValueLockedUSD": "26220251.432927",
+        "dailyDepositUSD": "8228.868332",
+        "dailyBorrowUSD": "3944265.2083",
+        "dailyWithdrawUSD": "849.289242",
+        "dailyRepayUSD": "3937341.982767",
+        "dailyActiveUsers": 9
+      },
+      {
+        "timestamp": "1789170851",
+        "market": {
+          "id": "0xe7df13b8e3d6740fe17cbe928c7334243d86c92f",
+          "name": "Spark USDT",
+          "inputToken": {
+            "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "symbol": "USDT",
+            "decimals": 6
+          }
+        },
+        "inputTokenBalance": "329380893796611",
+        "inputTokenPriceUSD": "1",
+        "totalValueLockedUSD": "329380893.796611",
+        "dailyDepositUSD": "3081108.665166",
+        "dailyBorrowUSD": "2878095",
+        "dailyWithdrawUSD": "1336420.508735",
+        "dailyRepayUSD": "1236127.986908",
+        "dailyActiveUsers": 15
+      },
+      {
+        "timestamp": "1789247915",
+        "market": {
+          "id": "0xe7df13b8e3d6740fe17cbe928c7334243d86c92f",
+          "name": "Spark USDT",
+          "inputToken": {
+            "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "symbol": "USDT",
+            "decimals": 6
+          }
+        },
+        "inputTokenBalance": "325243500862146",
+        "inputTokenPriceUSD": "1",
+        "totalValueLockedUSD": "325243500.862146",
+        "dailyDepositUSD": "4547503.009536",
+        "dailyBorrowUSD": "4354785.664136",
+        "dailyWithdrawUSD": "8711919.965863",
+        "dailyRepayUSD": "8278903.649679",
+        "dailyActiveUsers": 16
+      },
+      {
+        "timestamp": "1789248575",
+        "market": {
+          "id": "0x377c3bd93f2a2984e1e7be6a5c22c525ed4a4815",
+          "name": "Spark USDC",
+          "inputToken": {
+            "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "symbol": "USDC",
+            "decimals": 6
+          }
+        },
+        "inputTokenBalance": "26223387446098",
+        "inputTokenPriceUSD": "1",
+        "totalValueLockedUSD": "26223387.446098",
+        "dailyDepositUSD": "1510015.716434",
+        "dailyBorrowUSD": "300",
+        "dailyWithdrawUSD": "1509331.857873",
         "dailyRepayUSD": "0",
-        "dailyActiveUsers": 2
+        "dailyActiveUsers": 8
+      },
+      {
+        "timestamp": "1789271171",
+        "market": {
+          "id": "0xe7df13b8e3d6740fe17cbe928c7334243d86c92f",
+          "name": "Spark USDT",
+          "inputToken": {
+            "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "symbol": "USDT",
+            "decimals": 6
+          }
+        },
+        "inputTokenBalance": "325252321183661",
+        "inputTokenPriceUSD": "1",
+        "totalValueLockedUSD": "325252321.183661",
+        "dailyDepositUSD": "1179.109584",
+        "dailyBorrowUSD": "0",
+        "dailyWithdrawUSD": "500.133849",
+        "dailyRepayUSD": "0",
+        "dailyActiveUsers": 3
       }
     ]
   }

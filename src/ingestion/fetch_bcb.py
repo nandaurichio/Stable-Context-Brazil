@@ -1,11 +1,12 @@
 import json
+from datetime import date
 from pathlib import Path
 
 import requests
 
 
 START_DATE = "01/01/2023"
-END_DATE = "13/09/2026"
+END_DATE = date.today().strftime("%d/%m/%Y")
 
 BASE_URL = "https://api.bcb.gov.br/dados/serie/bcdata.sgs"
 

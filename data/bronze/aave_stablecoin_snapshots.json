@@ -52582,27 +52582,7 @@
         "dailyActiveUsers": 650
       },
       {
-        "timestamp": "1789110287",
-        "market": {
-          "id": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
-          "name": "Aave Ethereum USDC",
-          "inputToken": {
-            "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-            "symbol": "USDC",
-            "decimals": 6
-          }
-        },
-        "inputTokenBalance": "2364500088325784",
-        "inputTokenPriceUSD": "0.99987683",
-        "totalValueLockedUSD": "2364208852.84990491318472",
-        "dailyDepositUSD": "148659622.79641867151907",
-        "dailyBorrowUSD": "4234437.56085370382008",
-        "dailyWithdrawUSD": "2346827.16626118546993",
-        "dailyRepayUSD": "2602596.24955048462377",
-        "dailyActiveUsers": 223
-      },
-      {
-        "timestamp": "1789110347",
+        "timestamp": "1789170899",
         "market": {
           "id": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
           "name": "Aave Ethereum USDT",
@@ -52612,14 +52592,114 @@
             "decimals": 6
           }
         },
-        "inputTokenBalance": "3046109289711790",
-        "inputTokenPriceUSD": "0.99965692",
-        "totalValueLockedUSD": "3045064230.5366756790868",
-        "dailyDepositUSD": "11054096.861192162916",
-        "dailyBorrowUSD": "12273532.1118848271064",
-        "dailyWithdrawUSD": "1650205.39751697001604",
-        "dailyRepayUSD": "6724141.88869956547376",
-        "dailyActiveUsers": 148
+        "inputTokenBalance": "3175089268046524",
+        "inputTokenPriceUSD": "0.9996739",
+        "totalValueLockedUSD": "3174053871.4362140285236",
+        "dailyDepositUSD": "201341709.46597834702892",
+        "dailyBorrowUSD": "104790109.07032691002752",
+        "dailyWithdrawUSD": "63200707.51750922150806",
+        "dailyRepayUSD": "114086595.7399912836421",
+        "dailyActiveUsers": 618
+      },
+      {
+        "timestamp": "1789171163",
+        "market": {
+          "id": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+          "name": "Aave Ethereum USDC",
+          "inputToken": {
+            "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "symbol": "USDC",
+            "decimals": 6
+          }
+        },
+        "inputTokenBalance": "2173269827917323",
+        "inputTokenPriceUSD": "0.99987682",
+        "totalValueLockedUSD": "2173002124.53992014415286",
+        "dailyDepositUSD": "182981244.13993744823587",
+        "dailyBorrowUSD": "57208229.09071250697472",
+        "dailyWithdrawUSD": "228025839.95395050682562",
+        "dailyRepayUSD": "51925341.10411372118815",
+        "dailyActiveUsers": 867
+      },
+      {
+        "timestamp": "1789257503",
+        "market": {
+          "id": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+          "name": "Aave Ethereum USDC",
+          "inputToken": {
+            "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "symbol": "USDC",
+            "decimals": 6
+          }
+        },
+        "inputTokenBalance": "2178728434431332",
+        "inputTokenPriceUSD": "0.99984351",
+        "totalValueLockedUSD": "2178387485.21862784085532",
+        "dailyDepositUSD": "214829443.52429927969534",
+        "dailyBorrowUSD": "23941651.24063770196611",
+        "dailyWithdrawUSD": "209594647.40598426031556",
+        "dailyRepayUSD": "25154180.20424977192137",
+        "dailyActiveUsers": 607
+      },
+      {
+        "timestamp": "1789257587",
+        "market": {
+          "id": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
+          "name": "Aave Ethereum USDT",
+          "inputToken": {
+            "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "symbol": "USDT",
+            "decimals": 6
+          }
+        },
+        "inputTokenBalance": "3175454014956353",
+        "inputTokenPriceUSD": "0.99981267",
+        "totalValueLockedUSD": "3174859157.15573122639251",
+        "dailyDepositUSD": "58267693.03184278847905",
+        "dailyBorrowUSD": "20457770.33130968448437",
+        "dailyWithdrawUSD": "58143115.22562267357075",
+        "dailyRepayUSD": "14357077.00657669557274",
+        "dailyActiveUsers": 441
+      },
+      {
+        "timestamp": "1789276319",
+        "market": {
+          "id": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
+          "name": "Aave Ethereum USDT",
+          "inputToken": {
+            "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "symbol": "USDT",
+            "decimals": 6
+          }
+        },
+        "inputTokenBalance": "3191940972335532",
+        "inputTokenPriceUSD": "0.99981267",
+        "totalValueLockedUSD": "3191343026.03318438479044",
+        "dailyDepositUSD": "18434159.26054924799142",
+        "dailyBorrowUSD": "4000474.29552215642595",
+        "dailyWithdrawUSD": "2010064.16177412376215",
+        "dailyRepayUSD": "3552097.44711879346803",
+        "dailyActiveUsers": 88
+      },
+      {
+        "timestamp": "1789276319",
+        "market": {
+          "id": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+          "name": "Aave Ethereum USDC",
+          "inputToken": {
+            "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "symbol": "USDC",
+            "decimals": 6
+          }
+        },
+        "inputTokenBalance": "2378622519032633",
+        "inputTokenPriceUSD": "0.99984351",
+        "totalValueLockedUSD": "2378250288.39462958326183",
+        "dailyDepositUSD": "206466298.88699181946974",
+        "dailyBorrowUSD": "2707281.02155762962174",
+        "dailyWithdrawUSD": "6656164.87204404044214",
+        "dailyRepayUSD": "2419607.74356987000399",
+        "dailyActiveUsers": 121
       }
     ]
   }

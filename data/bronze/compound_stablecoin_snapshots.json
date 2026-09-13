@@ -42862,7 +42862,7 @@
         "dailyActiveUsers": 60
       },
       {
-        "timestamp": "1789102451",
+        "timestamp": "1789164143",
         "market": {
           "id": "0x3afdc9bca9213a35503b077a6072f3d0d5ab0840dac17f958d2ee523a2206206994597c13d831ec7",
           "name": "Compound V3 USDT - Tether USD",
@@ -42872,17 +42872,17 @@
             "decimals": 6
           }
         },
-        "inputTokenBalance": "180256054345074",
-        "inputTokenPriceUSD": "0.99965692",
-        "totalValueLockedUSD": "180194212.09794929201208",
-        "dailyDepositUSD": "8663.04789750296912",
-        "dailyBorrowUSD": "802.72450676",
-        "dailyWithdrawUSD": "632.47922355716988",
-        "dailyRepayUSD": "0",
-        "dailyActiveUsers": 6
+        "inputTokenBalance": "179077506082672",
+        "inputTokenPriceUSD": "0.9996739",
+        "totalValueLockedUSD": "179019108.9079384406608",
+        "dailyDepositUSD": "27348.4475758626274",
+        "dailyBorrowUSD": "160763.34336902",
+        "dailyWithdrawUSD": "1216861.48353644240832",
+        "dailyRepayUSD": "105196.07881004506964",
+        "dailyActiveUsers": 23
       },
       {
-        "timestamp": "1789110347",
+        "timestamp": "1789167095",
         "market": {
           "id": "0xc3d688b66703497daa19211eedff47f25384cdc3a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
           "name": "Compound V3 USDC - USD Coin",
@@ -42892,14 +42892,94 @@
             "decimals": 6
           }
         },
-        "inputTokenBalance": "375950897265187",
-        "inputTokenPriceUSD": "0.99985826",
-        "totalValueLockedUSD": "375897609.98500863239462",
-        "dailyDepositUSD": "426763.31581902395178",
-        "dailyBorrowUSD": "51050.43599136",
-        "dailyWithdrawUSD": "15275.35068343393588",
-        "dailyRepayUSD": "65427.50638916695017",
-        "dailyActiveUsers": 17
+        "inputTokenBalance": "378796906840156",
+        "inputTokenPriceUSD": "0.99983477",
+        "totalValueLockedUSD": "378734318.22723880102412",
+        "dailyDepositUSD": "5564833.49313323307897",
+        "dailyBorrowUSD": "3327873.84339056993662",
+        "dailyWithdrawUSD": "2334286.24882806355437",
+        "dailyRepayUSD": "2452362.97290565259097",
+        "dailyActiveUsers": 60
+      },
+      {
+        "timestamp": "1789253543",
+        "market": {
+          "id": "0x3afdc9bca9213a35503b077a6072f3d0d5ab0840dac17f958d2ee523a2206206994597c13d831ec7",
+          "name": "Compound V3 USDT - Tether USD",
+          "inputToken": {
+            "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "symbol": "USDT",
+            "decimals": 6
+          }
+        },
+        "inputTokenBalance": "179095534312216",
+        "inputTokenPriceUSD": "0.99981267",
+        "totalValueLockedUSD": "179061984.34577329257672",
+        "dailyDepositUSD": "194026.9527559147315",
+        "dailyBorrowUSD": "71727.573715",
+        "dailyWithdrawUSD": "191118.7387248741364",
+        "dailyRepayUSD": "44.1387666528935",
+        "dailyActiveUsers": 14
+      },
+      {
+        "timestamp": "1789257503",
+        "market": {
+          "id": "0xc3d688b66703497daa19211eedff47f25384cdc3a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "name": "Compound V3 USDC - USD Coin",
+          "inputToken": {
+            "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "symbol": "USDC",
+            "decimals": 6
+          }
+        },
+        "inputTokenBalance": "377594580071782",
+        "inputTokenPriceUSD": "0.99986417",
+        "totalValueLockedUSD": "377543291.39997084985094",
+        "dailyDepositUSD": "2051889.14354038750178",
+        "dailyBorrowUSD": "313624.41761178677072",
+        "dailyWithdrawUSD": "3434876.06277262613114",
+        "dailyRepayUSD": "1615.46122288582319",
+        "dailyActiveUsers": 40
+      },
+      {
+        "timestamp": "1789271411",
+        "market": {
+          "id": "0xc3d688b66703497daa19211eedff47f25384cdc3a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "name": "Compound V3 USDC - USD Coin",
+          "inputToken": {
+            "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "symbol": "USDC",
+            "decimals": 6
+          }
+        },
+        "inputTokenBalance": "377419193309049",
+        "inputTokenPriceUSD": "0.99986417",
+        "totalValueLockedUSD": "377367928.46002183187433",
+        "dailyDepositUSD": "154439.04339398096483",
+        "dailyBorrowUSD": "44.99388765",
+        "dailyWithdrawUSD": "40603.6222307623689",
+        "dailyRepayUSD": "0",
+        "dailyActiveUsers": 4
+      },
+      {
+        "timestamp": "1789274879",
+        "market": {
+          "id": "0x3afdc9bca9213a35503b077a6072f3d0d5ab0840dac17f958d2ee523a2206206994597c13d831ec7",
+          "name": "Compound V3 USDT - Tether USD",
+          "inputToken": {
+            "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "symbol": "USDT",
+            "decimals": 6
+          }
+        },
+        "inputTokenBalance": "179096404260413",
+        "inputTokenPriceUSD": "0.99981267",
+        "totalValueLockedUSD": "179062854.13100289683271",
+        "dailyDepositUSD": "3610.38848620347849",
+        "dailyBorrowUSD": "51490.352505",
+        "dailyWithdrawUSD": "6229.20737094360369",
+        "dailyRepayUSD": "0",
+        "dailyActiveUsers": 7
       }
     ]
   }

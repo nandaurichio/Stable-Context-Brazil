@@ -23,8 +23,8 @@ The consolidated monthly view is `data/gold/monthly_context.csv`.
 - Receita Federal data ends at **2026-06**; from 2026-07 onwards the
   Receita column is missing in the context (NaN) until the next
   monthly publication is ingested.
-- The 2026-09 row contains a partial month (through 2026-09-12 for
-  exchanges, 2026-09-11 for The Graph).
+- The 2026-09 row contains a partial month (through 2026-09-13 for
+  exchanges and The Graph).
 - The sources measure different phenomena and different universes
   (declared operations in Brazil vs. spot trading on two venues vs. global
   on-chain lending). Values are compared temporally, not as equivalents.
@@ -45,10 +45,10 @@ Monthly stablecoin activity, selected reference points:
 | 2026-06 | 48.0 | 2.18 | 9.87 |
 | 2026-07 | n/a* | **14.38** ← exchange break | 11.44 |
 | 2026-08 | n/a* | 9.98 | 10.41 |
-| 2026-09** | n/a* | 4.49 | 3.41 |
+| 2026-09** | n/a* | 4.50 | 4.16 |
 
 \* Receita dataset ends 2026-06. \*\* 2026-09 is a partial month
-(through 2026-09-11/12).
+(through 2026-09-13).
 
 ### Timing divergence between global on-chain and Brazilian sources
 

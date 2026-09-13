@@ -9,7 +9,7 @@
 | Item | Value |
 |---|---|
 | Dataset | `data/gold/exchange_stablecoin_activity.csv` |
-| Coverage | 2020-05-26 → 2026-09-12 (daily OHLCV) |
+| Coverage | 2020-05-26 → 2026-09-13 (daily OHLCV) |
 | Fields | date, exchange, asset, symbol, open/high/low/close, volume, volume_brl |
 | Unit | `volume` = base-asset amount (USDT/USDC); `volume_brl` = volume × daily close (est. BRL notional) |
 
@@ -22,7 +22,7 @@
 - Mercado Bitcoin has **zero zero-volume days** across both markets.
   Foxbit has 257 zero-volume days on USDC (12.8% of rows) and 19 on USDT —
   i.e., coverage days without recorded trading.
-- 2026 is partial (through 2026-09-12), so full-year comparisons for 2026
+- 2026 is partial (through 2026-09-13), so full-year comparisons for 2026
   are not valid.
 
 ## Observations
@@ -45,7 +45,7 @@
 | 2026-06 | 2.18 | last month before the break |
 | **2026-07** | **14.38** | ≈ **6.6× the 2026-06 level** |
 | 2026-08 | 9.98 | |
-| 2026-09 (12 days) | 4.49 | ~1.0 bi BRL on 2026-09-08 alone |
+| 2026-09 (13 days) | 4.50 | ~1.0 bi BRL on 2026-09-08 alone |
 
 ### The 2026-07 regime change
 
