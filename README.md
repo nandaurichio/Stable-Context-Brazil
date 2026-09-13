@@ -2,7 +2,7 @@
 
 ---
 
-## 🏆 MVP Submission — Proof of the Central Question
+##  MVP Submission — Proof of the Central Question
 
 > **How can observable stablecoin activity on Ethereum help us understand
 > the evolving relationship between Brazil and decentralized finance?**
@@ -12,11 +12,10 @@ cross-validated signals: Brazilian-facing activity grew and broke out in
 2026-07; global on-chain lending diverged from Brazilian measures; and
 three independent sources converged on a USDC shift in 2026.
 
-- 📄 Full proof with evidence trail → **local only** (`docs/mvp.md`, gitignored)
-- 📊 Evidence figures → **`docs/figures/`**
-- 🔬 Findings (01–06) → **`docs/analysis-findings/`**
-- 🧪 16 data-integrity tests → `python3 -m unittest discover -s tests`
-- 📓 Reproducible notebook → `notebooks/01-exploratory-analysis.ipynb`
+- Evidence figures → **`docs/figures/`**
+- Findings (01–06) → **`docs/analysis-findings/`**
+- 16 data-integrity tests → `python3 -m unittest discover -s tests`
+- Reproducible notebook → `notebooks/01-exploratory-analysis.ipynb`
 
 > Exploring how Brazil interacts with DeFi through stablecoin activity and economic context.
 
