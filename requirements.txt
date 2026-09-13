@@ -1,0 +1,14 @@
+# Stable-Context: Brazil — Python dependencies
+#
+# Runtime dependencies for the data pipeline.
+# Versions are pinned to the environment used for the V1 analysis.
+# Install with: pip install -r requirements.txt
+
+pandas>=2.2,<3.1
+requests>=2.31
+ccxt>=4.3
+duckdb>=1.0
+matplotlib>=3.8
+
+# Development / testing
+# pytest>=8.0  # optional: tests also run with stdlib unittest
