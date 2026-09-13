@@ -78,9 +78,11 @@
 
 ## Recommended next steps
 
-1. Collect external Brazilian context for the observed windows
-   (2024-11/12, 2025-07/09, 2026-07): regulation, tax rulings, FX
-   interventions, exchange announcements.
+1. Complete the external-context registry for the two 2026 windows
+   (USDC share jump in June; exchange regime change in July). Initial
+   registry: `data/context/brazil_events.csv` and
+   `docs/context/brazil-context-events.md`; rows marked `to_verify` must
+   be confirmed against primary sources.
 2. Investigate Foxbit's 2026 data properties (API coverage, market
    makers, fee/wallet features) before assuming user-level demand.
 3. Re-run the monthly context layer after the next Receita Federal
@@ -88,13 +90,15 @@
    sustained (Receita currently ends 2026-06; the context layer now
    extends to 2026-09 via the other sources).
 4. Re-run the pipeline after the next ingestion refresh and document
-   coverage changes between cycles.
+   coverage changes between cycles (see `docs/refresh.md`).
 
 ## Resolved items
 
 - Monthly context extended to 2026-09 (finding 01 open item).
 - Spark USDT borrows/TVL inconsistency: resolved as a high-churn flow
   pattern, not a data error (finding 04).
+- External Brazilian context registry created for 2019–2026, with the
+  2026 windows flagged as pending fact collection (finding 05).
 
 ## Related documents
 

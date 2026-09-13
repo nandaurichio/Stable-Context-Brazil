@@ -53,6 +53,32 @@ Cleaned and standardized data with explicit types, timestamps, units, identifier
 
 Analytical datasets derived from the Silver layer for comparison and exploratory analysis.
 
+### Monthly Context Layer
+
+An analysis-level assembly combines the four sources into a single
+monthly frame (`data/gold/monthly_context.csv`):
+
+```text
+Receita Federal          -> receita_stablecoin_brl
+Exchanges (MB + Foxbit)  -> exchange_volume_brl_estimated
+
+The Graph                -> deposits_usd, borrows_usd
+Banco Central do Brasil  -> selic_meta, usd_brl
+```
+
+It is built by `src/transformation/build_monthly_context.py` (which
+depends on the monthly on-chain aggregation in
+`src/analysis/build_graph_monthly.py`) and extends to the last month
+with any observation. Sources with different end dates are represented
+as missing values (NaN), not as zero.
+
+### Context Layer
+
+External dated events (regulation, fiscal, monetary, FX, industry) are
+registered in `data/context/brazil_events.csv` and documented in
+`docs/context/brazil-context-events.md`. They are used to investigate
+signals, never to replace observation.
+
 ### Analysis
 
 Exploratory analysis used to identify observations, signals, divergences and areas for further investigation.
@@ -170,6 +196,8 @@ Interpretation
 ```
 
 Scripts are responsible for making data processing reproducible and explicit.
+
+The refresh procedure is documented in `docs/refresh.md`.
 
 Documentation records the reasoning, scope and limitations of the research.
 

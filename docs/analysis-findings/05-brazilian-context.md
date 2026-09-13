@@ -59,13 +59,25 @@ they are coincidences in time, not causal statements:
 ## Questions for further investigation
 
 - Does the 2024-12 FX peak align with a specific regulatory/balance-of-
-  payments event (to be collected from external context, not inferred)?
+  payments event? The fiscal-package and FX events of Nov–Dec 2024 are
+  now registered in the context layer (see below).
 - Is there a relationship between USD/BRL direction and exchange
   stablecoin volume growth, or do the series simply share a trend?
 - Which Brazilian regulatory milestones (tax framework, Pix automation,
   stablecoin regulation draft, exchange certifications) fall inside the
-  2025-2026 window? These are external facts to be collected, not
-  derived from the data.
+  2025-2026 window?
+
+## Context layer
+
+A curated registry of dated external events is maintained in:
+
+- `data/context/brazil_events.csv` (structured)
+- `docs/context/brazil-context-events.md` (readable chronology)
+
+Rows carry a `confidence` field (`high` / `medium` / `to_verify`). The
+registry currently covers macro/FX/regulatory events through 2025 and
+flags the two **2026 investigation windows** (USDC share jump in June;
+exchange regime change in July) as facts still to be collected.
 
 ## Related files
 
@@ -74,3 +86,5 @@ they are coincidences in time, not causal statements:
 - `src/ingestion/fetch_bcb.py`
 - `src/transformation/bcb_monthly.py`
 - `src/analysis/plot_monthly_context.py` → `docs/working/monthly_context_index.png` (local, gitignored)
+- `data/context/brazil_events.csv`
+- `docs/context/brazil-context-events.md`

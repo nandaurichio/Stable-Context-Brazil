@@ -39,6 +39,30 @@ not as proof of causality.
 
 ---
 
+## Current Findings (V1)
+
+Exploratory observations from the Gold datasets (2023-01 → 2026-09),
+documented in `docs/analysis-findings/`:
+
+- **Divergence:** global on-chain stablecoin lending (The Graph) peaked
+  in mid-2025 and declined, while Brazilian-facing measures (Receita
+  Federal, exchanges) kept growing into 2026.
+- **Exchange regime change (2026-07):** stablecoin spot volume on
+  Mercado Bitcoin + Foxbit jumped ~10× (14.4 bi BRL in one month,
+  93% on Foxbit) — a sustained, multi-week step, not a single-day
+  artifact.
+- **USDC convergence (2026):** USDC share rose in all three independent
+  sources — Receita (5% → 29.3% by 2026-06), exchanges (49.7% of 2026
+  YTD notional) and on-chain deposits — in the same window.
+- **Reported stablecoin growth:** declared stablecoin value grew from
+  ~15 bi BRL/month (2023) to ~48-52 bi BRL/month (mid-2026).
+
+All findings are signals for investigation, not conclusions. See
+`docs/analysis-findings/` for details, `docs/context/` for the external
+context registry and `docs/refresh.md` for the refresh procedure.
+
+---
+
 ## V1 — Initial Research Prototype
 
 The first version focuses on:
@@ -122,5 +146,10 @@ Findings are therefore exploratory and should be interpreted accordingly.
 ## Status
 
 🚧 V1 — Initial Research Prototype
+
+- Pipeline complete: ingestion → Bronze → Silver → Gold → Analysis
+- Monthly cross-source context layer (2023-01 → 2026-09)
+- Six exploratory findings documents (`docs/analysis-findings/`)
+- External Brazilian context registry (`docs/context/`)
 
 Developed for ETHOnline 2026.

@@ -159,22 +159,60 @@ The Graph therefore provides on-chain context for the research rather than a dir
 
 ## Banco Central do Brasil
 
-Banco Central do Brasil is used as an economic, foreign-exchange and regulatory context source.
+Banco Central do Brasil is used as an economic, foreign-exchange and
+regulatory context source.
+
+### Implemented Series
+
+Two BCB SGS series are currently ingested and transformed to a monthly
+granularity:
+
+- **Selic target rate** (SGS series 432) — monthly value at month-end
+- **USD/BRL mean** (SGS series 10813) — monthly average of the daily
+  mean rate
+
+Files:
+
+- Bronze: `data/bronze/bcb/selic_meta.json`, `data/bronze/bcb/usd_brl.json`
+- Silver: `data/silver/bcb_monthly.csv`
+
+Ingestion script: `src/ingestion/fetch_bcb.py`
+Transformation: `src/transformation/bcb_monthly.py`
+
+Coverage is aligned with the comparison window (2023-01 onward for the
+monthly context layer).
 
 ### Potential Data
 
-The project may use:
+The project may additionally use:
 
-- Exchange-rate data
-- Economic indicators
-- Regulatory information
-- Foreign-exchange context
+- Other economic indicators (inflation, credit, capital flows)
+- Regulatory information (see the events registry below)
 
 ### Analytical Role
 
 BCB data is contextual.
 
-It is not treated as a direct equivalent to the cryptoasset activity reported by Receita Federal or the market activity observed on exchanges.
+It is not treated as a direct equivalent to the cryptoasset activity
+reported by Receita Federal or the market activity observed on
+exchanges.
+
+## Brazilian Context Events
+
+In addition to the BCB series, the project maintains a curated registry
+of dated external events used to investigate observed signals:
+
+- Structured: `data/context/brazil_events.csv`
+- Readable: `docs/context/brazil-context-events.md`
+
+Categories: regulatory, fiscal, monetary, fx, payments, industry,
+international. Each row carries a confidence level (`high` / `medium` /
+`to_verify`); unverified rows must be confirmed against primary sources
+before being cited.
+
+The registry covers 2019-2026 and currently flags two unresolved
+investigation windows (2026-06 USDC share jump; 2026-07 exchange regime
+change).
 
 ## Source Combination
 

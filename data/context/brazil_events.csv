@@ -1,0 +1,24 @@
+date,category,title,detail,source,confidence
+2019-05-21,regulatory,IN RFB 1888/2019 — declaração mensal de criptoativos,Cria a obrigação de declarar operações com criptoativos mensalmente (a partir de 01/08/2019). Coincide com o início do dataset aberto da Receita (2019-08).,"Receita Federal, IN RFB 1888/2019",high
+2022-12-22,regulatory,Lei 14.478/2022 — Marco Legal dos Criptoativos,Define VASPs e crimes; designa o Banco Central como regulador do mercado de ativos virtuais.,Diário Oficial da União,high
+2023-06-20,regulatory,Entrada em vigor do Marco Legal dos Criptoativos,Vigência da Lei 14.478/2022.,Diário Oficial da União,high
+2023-08-10,regulatory,BCB anuncia piloto do Drex (real digital),Início do piloto da moeda digital de banco central brasileira.,Banco Central do Brasil,high
+2023-10-11,regulatory,BCB abre consultas públicas para regulação de VASPs,Consultas públicas sobre licenciamento e gestão de riscos de prestadores de serviços de ativos virtuais (números/datas exatos das consultas a confirmar).,Banco Central do Brasil,to_verify
+2024-01-10,international,SEC aprova ETFs de Bitcoin à vista nos EUA,Aprovação de ETFs spot de Bitcoin; contexto internacional de adoção de criptoativos.,SEC / imprensa internacional,high
+2024-06-19,monetary,"COPOM interrompe ciclo de cortes; Selic em 10,50%",Fim do ciclo de queda iniciado em ago/2023; mínima do período observado.,"BCB, COPOM",high
+2024-11-27,fiscal,Anúncio do pacote fiscal e estresse de mercado,Anúncio de contenção de gastos gera reprecificação; USD/BRL acelera (data exata do anúncio a confirmar).,Reuters / Broadcast / imprensa,medium
+2024-12-11,monetary,"COPOM retoma alta; Selic 12,25%","COPOM eleva a Selic em 1,00 p.p.; retomada do ciclo de aperto.","BCB, COPOM",high
+2024-12-18,fx,"USD/BRL atinge máximas do período (~6,10-6,20)","Dólar atinge máxima histórica do período; média mensal de dez/2024 = 6,10 (série do projeto sgs 10813).",Mercado (Ptax) / série BCB 10813,high
+2024-12-19,fiscal,Lei 14.973/2024 — tributação de rendimentos no exterior,"Regulamenta a tributação de rendimentos no exterior, incluindo ativos digitais detidos fora do Brasil (número/escopo exato a confirmar).",Diário Oficial da União,to_verify
+2025-01-15,fx,Estresse cambial; BCB intervém com leilões de dólar à vista,"USD/BRL acima de 6,20 intradiário em janeiro; intervenções do BCB no mercado à vista (datas exatas a confirmar).",Reuters / Broadcast,medium
+2025-01-29,monetary,"COPOM +1,00 p.p.; Selic 13,25%",Continuação do ciclo de aperto monetário.,"BCB, COPOM",high
+2025-01-31,regulatory,BCB apresenta minuta de regulamentação de stablecoins,Relatos de minuta limitando transferências de stablecoins a carteiras de autocustódia; BCB esclarece que não haverá proibição. Mecanismo final a confirmar.,"Imprensa (Reuters, Valor) / BCB",to_verify
+2025-03-19,monetary,"COPOM +1,00 p.p.; Selic 14,25%",Continuação do ciclo de aperto monetário.,"BCB, COPOM",high
+2025-05-07,monetary,"COPOM +0,50 p.p.; Selic 14,75%",Continuação do ciclo de aperto monetário.,"BCB, COPOM",high
+2025-06-18,monetary,"COPOM +0,25 p.p.; Selic 15,00% (pico do ciclo)",Máxima do ciclo de aperto e do período observado; Selic mantida em 15% até início de 2026.,"BCB, COPOM",high
+2025-06-30,payments,Pix Automático e Pix por aproximação,Novas funcionalidades do Pix (recorrências e aproximação) — cronograma exato de lançamento a confirmar.,BCB / imprensa,to_verify
+2025-12-31,regulatory,Caminho regulatório de stablecoins no Brasil (2025),Agenda do BCB para regulamentação de stablecoins e framework de VASPs; nenhum marco final confirmado até o fim de 2025 (status a verificar).,BCB / imprensa,to_verify
+2025-12-31,industry,Distribuição de USDC no Brasil (2025),Relatos de expansão da distribuição de USDC no país via exchanges/instituições; detalhes e datas a confirmar.,Imprensa especializada,to_verify
+2026-03-01,monetary,"COPOM inicia ciclo de corte; Selic 14,75%",Primeira redução desde 2024 (série do projeto). Datas exatas das reuniões de 2026 a confirmar.,Série BCB 432 (dado do projeto),high
+2026-06-01,industry,"Salto do USDC nas declarações da Receita (14,1 bi BRL em jun/2026)",JANELA DE INVESTIGAÇÃO: mudança de composição USDT->USDC nas três fontes; causa externa ainda não coletada.,— (fato a coletar),to_verify
+2026-07-01,industry,"Explosão do volume stablecoin-BRL nas exchanges (14,4 bi BRL; Foxbit ~93%)","JANELA DE INVESTIGAÇÃO: mudança de regime em jul/2026; causa externa ainda não coletada (anúncios de exchange, mercado institucional etc.).",— (fato a coletar),to_verify
