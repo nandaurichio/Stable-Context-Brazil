@@ -88,8 +88,9 @@ Confidence levels:
 
 ## Next actions
 
-1. Confirm `to_verify` rows against primary sources (BCB/COPOM minutes,
-   DOU, Receita Federal, exchange announcements) and update confidence.
+1. Work through `docs/context/verification-checklist.md` — it lists, for
+   each pending item, the primary sources to consult, the exact
+   questions to answer and a verification log to complete.
 2. Collect facts for the two 2026 investigation windows (June and July):
    regulatory milestones, exchange announcements, institutional moves,
    tax-rule changes, FX policy.
